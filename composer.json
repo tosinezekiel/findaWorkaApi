@@ -1,0 +1,19 @@
+{
+    "name": "tosin/findawork-api-test",
+    "description": "an api test",
+    "type": "api",
+    "authors": [
+        {
+            "name": "tosinezekiel",
+            "email": "seunezekiel11@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\":"app"
+        }
+    }
+}
